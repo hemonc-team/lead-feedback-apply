@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Выгрузки прогона: могут содержать текст переписки
+.run/
+logs/
+*.csv
+__pycache__/
+.DS_Store
